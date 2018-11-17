@@ -88,6 +88,7 @@ t = t!
 - `d: tuple = (1, 'abc', 3.1415)`
 - Tuples are immutable
     - `d[0] = 2 # => ERROR`
+- A nice thing that having specified typing gives us is the possibility to do `let x: tuple[int] = (1)` and not have to add the extra `,` to denote a one-item tuple
 
 ## Dictionaries
 - `map: dict[str, str] = {'a': 'b', 'b': 'a'}`
