@@ -80,7 +80,7 @@ abstract class Animal {
     abstract def make_noise() -> str
 
     # Abstract classes can also contain concrete definitions
-    def is_animal?() -> bool = return true
+    def animal?() -> bool = return true
 }
 
 let a: Animal = Animal()  # Causes an error as abstract classes cannot be instantiated
