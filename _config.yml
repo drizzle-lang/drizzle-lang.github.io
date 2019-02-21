@@ -1,9 +1,9 @@
-remote_theme: crnbrdrck/storm
+remote_theme: drizzle-lang/storm
 title: Drizzle Lang
 short_title: Drizzle
-email: crn@crnbrdrck.xyz
+email: dev@drizzle-lang.github.io
 description: >-
-  Drizzle is a programming language designed simultaneously as a language that I (crnbrdrck) would like to use, and as something I can use to continuously learn new things.
+  Drizzle is a programming language designed simultaneously as a language that I would like to use, and as something I can use to continuously learn new things.
   It is inspired by languages like Python, Swift, Crystal and TypeScript. It is strongly, staticly typed, with (hopefully) an easy to read syntax that will hopefully balance speed with ease.
 
 sass:
