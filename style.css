@@ -94,9 +94,18 @@ pre {
 }
 
 code {
-  background-color: #ddd;
+  background-color: #18191c;
   font-family: 'Ubuntu Mono', monospace;
   padding: 2em;
+  color: #B0D8BE;
+}
+
+code .builtin {
+  color: #B1B96C;
+}
+
+code .string {
+  color: #4AB5AC;
 }
 
 /* Desktop */
