@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Ubuntu+Mono');
 
 * {
   margin: 0;
@@ -33,10 +33,61 @@ nav {
 }
 
 .clear {
-  height: 40vh;
+  height: 30vh;
+}
+
+.header {
+  min-height: 54vh;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  background-color: #fff;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.header-content {
+  background-color: #fff;
+  padding-top: 7.5%;
+  padding-bottom: 2%;
+  margin-top: -7.5%;
+  text-align: center;
+}
+
+.header-links {
+  margin-top: 1%;
 }
 
 .block {
   background-color: #fff;
   min-height: 54vh;
+}
+
+a.btn {
+  background: #002366;
+  color: #fff;
+  display: inline-block;
+  padding: 0.5em 1em 0.5em 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #8091B3;
+}
+
+a.btn:hover {
+  background: #002a7a;
+}
+
+pre {
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+
+code {
+  background-color: #ddd;
+  font-family: 'Ubuntu Mono', monospace;
+  padding: 2em;
 }
