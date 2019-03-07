@@ -33,7 +33,7 @@ nav {
 }
 
 .clear {
-  height: 33vh;
+  height: 14vh;
 }
 
 .logo {
@@ -47,7 +47,7 @@ nav {
 }
 
 .header {
-  min-height: 61vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
 }
@@ -67,7 +67,7 @@ nav {
 
 .block {
   background-color: #fff;
-  min-height: 61vh;
+  min-height: 80vh;
 }
 
 a.btn {
@@ -97,4 +97,15 @@ code {
   background-color: #ddd;
   font-family: 'Ubuntu Mono', monospace;
   padding: 2em;
+}
+
+/* Desktop */
+@media only screen and (min-width: 768px) {
+  .clear {
+    height: 33vh;
+  }
+
+  .header, .block {
+    min-height: 61vh;
+  }
 }
