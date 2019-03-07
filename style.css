@@ -33,21 +33,23 @@ nav {
 }
 
 .clear {
-  height: 30vh;
-}
-
-.header {
-  min-height: 54vh;
+  height: 33vh;
 }
 
 .logo {
   text-align: center;
+  z-index: 1;
 }
 
 .logo img {
   background-color: #fff;
   border-radius: 50%;
-  z-index: 1;
+}
+
+.header {
+  min-height: 61vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .header-content {
@@ -56,6 +58,7 @@ nav {
   padding-bottom: 2%;
   margin-top: -7.5%;
   text-align: center;
+  flex-grow: 1;
 }
 
 .header-links {
@@ -64,7 +67,7 @@ nav {
 
 .block {
   background-color: #fff;
-  min-height: 54vh;
+  min-height: 61vh;
 }
 
 a.btn {
@@ -79,6 +82,10 @@ a.btn {
 
 a.btn:hover {
   background: #002a7a;
+}
+
+a.btn[title]:hover {
+  cursor: not-allowed;
 }
 
 pre {
